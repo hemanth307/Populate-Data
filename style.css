@@ -1,0 +1,148 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body{
+    background-image: url("img/form\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+
+
+  .main{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 100px auto 0px auto;
+    /* margin: 100px auto 0px auto; */
+  }
+
+  h2{
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 35px;
+  }
+  .submit{
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 77%;
+    height: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-left: 75px;
+  }
+  
+  label{
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 50px;
+    /* margin-bottom: 70px; */
+  }
+#submit{
+  margin: 40px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center; 
+}
+
+
+#name{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+  height: 20px;
+}
+
+#name,#contact{
+  margin-top: 20px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px; 
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+  height: 20px;
+}
+
+#submit-btn{
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(68, 150, 47, 0.8);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 200px;
+  margin-top: 30px;
+  height: 40px;
+}
+
+#search{
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(23, 18, 18, 0.8);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 480px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 50%;
+  margin: 15px auto;
+  background-color: gray;
+}
+table, th, td{
+  border: 2px solid rgb(69, 50, 50);
+  padding: 10px;
+}
+
+th{
+  font-size:  20px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+td{
+  font-size: 25px;
+  color: white;
+  font-weight: 300;
+  font-family: Georgia;
+}
+
+#new{
+  cursor: pointer;
+}
+ 

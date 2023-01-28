@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact List</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="main">
+      <div class="submit">
+        <h2>Submission Your Details Here</h2>
+        <form id="submit">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <br>
+          <label for="contact">Contact:</label>
+          <input type="text" id="contact" name="contact" required>
+          <br>
+          <button type="submit" id="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <br>
+    <input type="text" id="search" placeholder="Search by name">
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th id = "new">Name</th>
+          <th>Contact</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script src="index.js"></script>
+</html>
+
